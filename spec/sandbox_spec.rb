@@ -1,4 +1,4 @@
-require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
+require 'spec_helper'
 
 def canned_response(resp)
   File.new File.join(File.expand_path(File.dirname __FILE__), 'support', 'responses', "#{resp}.json")

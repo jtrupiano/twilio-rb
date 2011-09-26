@@ -1,4 +1,4 @@
-require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
+require 'spec_helper'
 
 def parse_scope(scope)
   scope.scan(/scope:(client|stream):(incoming|outgoing)\?(\S+)/).map do |service, privilege, query|
